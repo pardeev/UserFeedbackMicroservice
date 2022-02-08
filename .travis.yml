@@ -1,0 +1,9 @@
+suso: required
+
+language: java
+
+services:
+  - docker
+
+script:
+  - ./mvnw clean install -Pdocker -B
